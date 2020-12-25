@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name: BeGateway Payment Gateway for WP Charitable
- * Plugin URI: https://github.com/begateway/charitable-gateway-plugin
- * Description: BeGateway Payment Gateway.
- * Author: eComCharge LLC
+ * Plugin URI: https://github.com/beGateway/charitable-begateway-payment-gateway
+ * Description: BeGateway Payment Gateway module to accept donations by means of bank cards and alternative payment methods.
+ * Author: eComCharge
  * Author URI: https://www.ecomcharge.com/
  * Version: 1.0.0
- * Requires PHP: 7.0
+ * Requires PHP: 5.6
  * License: GPLv3
- * Domain Path: /languages/
+ * Domain Path: /includes/languages/
  * Text Domain: charitable-begateway
  */
 
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
  * Load plugin class, but only if Charitable is found and activated.
  *
  */
-function charitable_billplz_load() {
+function charitable_begateway_load() {
 	require_once( 'includes/class-charitable-begateway.php' );
 
 	$has_dependencies = true;

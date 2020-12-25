@@ -1,0 +1,4 @@
+.DS_Store
+docker/src/languages/*
+docker/src/languages/plugins/*
+samples

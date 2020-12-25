@@ -43,15 +43,19 @@ if ( ! class_exists( 'Charitable_BeGateway' ) ) :
 		private function load_dependencies() {
       require_once( $this->get_path( 'gateway' ) . 'begateway.php' );
       require_once( $this->get_path( 'gateway' ) . 'hooks.php' );
-      require_once( $this->get_path( 'gateway' ) . 'listener.php' );
-
-      require_once( $this->get_path( 'helpers' ) . '/begateway-api-php/lib/BeGateway/BeGateway.php' );
+      require_once( $this->get_path( 'helpers' ) . 'begateway-api-php/lib/BeGateway.php' );
 		}
+
 
 		private function attach_hooks_and_filters() {
 			add_filter( 'plugin_action_links_' . plugin_basename( $this->get_path() ), array( $this, 'add_plugin_action_links' ) );
 			add_filter( 'charitable_payment_gateways', array( $this, 'register_gateway' ) );
+      add_action( 'init', array($this, 'load_textdomain'));
 		}
+
+    public function load_textdomain() {
+      load_plugin_textdomain('charitable-begateway', false, dirname( plugin_basename( __FILE__ ) ) . '/languages');
+    }
 
 		public function add_plugin_action_links( $links ) {
 			$link = add_query_arg( array(
@@ -95,6 +99,10 @@ if ( ! class_exists( 'Charitable_BeGateway' ) ) :
 			$base = $absolute_path ? $this->directory_path : $this->directory_url;
 
 			switch ( $type ) {
+				case 'includes' :
+				  $path = $base . 'includes/';
+				  break;
+
 				case 'models' :
 				  $path = $base . 'includes/models/';
 				  break;
@@ -133,11 +141,11 @@ if ( ! class_exists( 'Charitable_BeGateway' ) ) :
 		}
 
 		public function __clone() {
-			_doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'charitable-begateway' ), '1.0.0' );
+			_doing_it_wrong( __FUNCTION__, __( 'Cloning this object is forbidden.', 'charitable-begateway' ), '1.0.0' );
 		}
 
 		public function __wakeup() {
-			_doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'charitable-begateway' ), '1.0.0' );
+			_doing_it_wrong( __FUNCTION__, __( 'Unserializing instances of this class is forbidden.', 'charitable-begateway' ), '1.0.0' );
 		}
 	}
 

@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Charitable-BeGateway\n"
+"POT-Creation-Date: 2020-12-26 01:18+0300\n"
+"PO-Revision-Date: 2020-12-26 14:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/activation.php:23
+msgid "BeGateway Payment Gateway for WP Charitable"
+msgstr "Платежный шлюз BeGateway для WP Charitable"
+
+#: includes/activation.php:44
+msgid "Activate it"
+msgstr "Активировать"
+
+#: includes/activation.php:47
+msgid "Install it"
+msgstr "Установить"
+
+#: includes/activation.php:50
+#, php-format
+msgid " requires Charitable! Please %s to continue!"
+msgstr " требует плагин Charitable! Нажмите %s, чтобы продолжить!"
+
+#: includes/class-charitable-begateway.php:69
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-charitable-begateway.php:147
+msgid "Cloning this object is forbidden."
+msgstr "Клонирование запрещено."
+
+#: includes/class-charitable-begateway.php:151
+msgid "Unserializing instances of this class is forbidden."
+msgstr "Десириализация класса запрещена."
+
+#: includes/gateway/begateway.php:15 includes/gateway/begateway.php:18
+msgid "BeGateway"
+msgstr "BeGateway"
+
+#: includes/gateway/begateway.php:40
+msgid "Shop ID"
+msgstr "ID магазина"
+
+#: includes/gateway/begateway.php:42
+msgid "Please enter your Shop Id"
+msgstr "Введите ID вашего магазина"
+
+#: includes/gateway/begateway.php:49
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: includes/gateway/begateway.php:51
+msgid "Please enter your Shop secret key"
+msgstr "Введите секретный ключ магазина"
+
+#: includes/gateway/begateway.php:58
+msgid "Public key"
+msgstr "Публичный ключ"
+
+#: includes/gateway/begateway.php:60
+msgid "Please enter your Shop public key"
+msgstr "Введите публичный ключ магазина"
+
+#: includes/gateway/begateway.php:67
+msgid "Payment page domain"
+msgstr "Домен страницы оплаты"
+
+#: includes/gateway/begateway.php:69
+msgid "Please enter payment page domain of your payment processor"
+msgstr "Введите домен страницы оплаты вашего провайдера платежей"
+
+#: includes/gateway/begateway.php:75
+msgid "Widget CSS"
+msgstr "CSS стили виджета"
+
+#: includes/gateway/begateway.php:77
+msgid "Please enter CSS data to customize the payment widget"
+msgstr "Введите CSS стили, чтобы настроить внешний вид платежного виджета"
+
+#: includes/gateway/begateway.php:130
+#, php-format
+msgid "Campaign: %s"
+msgstr "Кампания: %s"
+
+#: includes/gateway/begateway.php:132
+#, php-format
+msgid "Donation: %d"
+msgstr "Пожертвование: %d"
+
+#: includes/gateway/begateway.php:182
+#, php-format
+msgid "Error to get a payment token. Reason: %s"
+msgstr "Ошибка получения токена платежа. Причина: %s"
+
+#: includes/gateway/begateway.php:185
+msgid "Return back"
+msgstr "Вернуться назад"
+
+#: includes/gateway/begateway.php:223
+msgid "BeGateway Options"
+msgstr "Настройки BeGateway"
+
+#: includes/gateway/begateway.php:228
+msgid "Remove Address 1 & 2 Field"
+msgstr "Удалить поля Адрес и Адрес 2"
+
+#: includes/gateway/begateway.php:230
+msgid "Remove Address Field on Payment"
+msgstr "Удаляет поле адреса с формы данных о дарителе"
+
+#: includes/gateway/begateway.php:234
+msgid "Remove City Field"
+msgstr "Удалить поле Город"
+
+#: includes/gateway/begateway.php:236
+msgid "Remove City Field on Payment"
+msgstr "Удаляет поле города с формы данных о дарителе"
+
+#: includes/gateway/begateway.php:240
+msgid "Remove State Field"
+msgstr "Удалить поле Штат"
+
+#: includes/gateway/begateway.php:242
+msgid "Remove State Field on Payment"
+msgstr "Удаляет поле штат с формы данных о дарителе"
+
+#: includes/gateway/begateway.php:246
+msgid "Remove Postcode Field"
+msgstr "Удалить Почтовый индекс"
+
+#: includes/gateway/begateway.php:248
+msgid "Remove Postcode Field on Payment"
+msgstr "Удаляет поле почтового индекса с формы данных о дарителе"
+
+#: includes/gateway/begateway.php:252
+msgid "Remove Country Field"
+msgstr "Удалить поле Страна"
+
+#: includes/gateway/begateway.php:254
+msgid "Remove Country Field on Payment"
+msgstr "Удаляет поле страны с формы данных о дарителе"
+
+#: includes/gateway/begateway.php:258
+msgid "Phone Required"
+msgstr "Требовать телефон"
+
+#: includes/gateway/begateway.php:260
+msgid "Make Phone Fields Mandatory to be set"
+msgstr "Сделать поле телефона обязательным к заполнению на формы данных о дарителе"
+
+#: includes/gateway/begateway.php:264
+msgid "Unrequire Email"
+msgstr "Не требовать адрес электронной почты"
+
+#: includes/gateway/begateway.php:266
+msgid "Make Email Fields Optional to be set. NOT RECOMMENDED"
+msgstr "Сделать поле электронной почты опциональным к заполнению на формы данных о дарителе. Не рекомендуется включать"
+
+#: includes/gateway/listener.php:85
+msgid "The donation has failed with the following reason"
+msgstr "Оплата пожертвования не получилась по причине"
+
+#. Description of the plugin/theme
+msgid "BeGateway Payment Gateway module to accept donations by means of bank cards and alternative payment methods."
+msgstr "Платежный шлюз BeGateway для приема пожертвований с помощью банковских платежных карт и других способов оплаты."

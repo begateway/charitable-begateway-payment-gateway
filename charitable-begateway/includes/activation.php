@@ -20,7 +20,7 @@ class Charitable_Extension_Activation
     if (isset($plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'])) {
       $this->plugin_name = str_replace('Charitable - ', '', $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name']);
     } else {
-      $this->plugin_name = __('BeGateway for WP Charitable', 'charitable-begateway');
+      $this->plugin_name = __('BeGateway Payment Gateway for WP Charitable', 'charitable-begateway');
     }
 
     foreach ($plugins as $plugin_path => $plugin) {
@@ -41,12 +41,12 @@ class Charitable_Extension_Activation
   {
     if ($this->has_charitable) {
       $url = esc_url(wp_nonce_url(admin_url('plugins.php?action=activate&plugin=' . $this->charitable_base), 'activate-plugin_' . $this->charitable_base));
-      $link = '<a href="' . $url . '">' . __('activate it', 'chbillplz') . '</a>';
+      $link = '<a href="' . $url . '">' . __('Activate it', 'charitable-begateway') . '</a>';
     } else {
       $url = esc_url(wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=charitable'), 'install-plugin_charitable'));
-      $link = '<a href="' . $url . '">' . __('install it', 'chbillplz') . '</a>';
+      $link = '<a href="' . $url . '">' . __('Install it', 'charitable-begateway') . '</a>';
     }
 
-    echo '<div class="error"><p>' . $this->plugin_name . sprintf(__(' requires Charitable! Please %s to continue!', 'chbillplz'), $link) . '</p></div>';
+    echo '<div class="error"><p>' . $this->plugin_name . sprintf(__(' requires Charitable! Please %s to continue!', 'charitable-begateway'), $link) . '</p></div>';
   }
 }
