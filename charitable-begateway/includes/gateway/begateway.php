@@ -194,6 +194,9 @@ if (!class_exists('Charitable_Gateway_BeGateway')) {
     var params = {
       checkout_url: "<?= \BeGateway\Settings::$checkoutBase; ?>",
       token: "<?= $response->getToken() ?>",
+      style: {
+        <?= $keys['css'] ?>
+      }
       closeWidget: function(status) {
         if (status == null) {
           window.location.replace("<?= $cancel_url ?>");
