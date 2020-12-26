@@ -1,6 +1,6 @@
 # BeGateway payment gateway for WP Charitable
 
-[Русская версия](#ru)
+[Русская версия](#платежный-шлюз-begateway-для-wp-charitable)
 
 ## Installation
 
@@ -67,7 +67,7 @@ Use the following test card to make failed test payment:
 
 # Платежный шлюз BeGateway для WP Charitable
 
-[English version](#en)
+[English version](#begateway-payment-gateway-for-wp-charitable)
 
 ## Установка
 
