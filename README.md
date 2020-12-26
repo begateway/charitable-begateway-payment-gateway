@@ -1,4 +1,4 @@
-# BeGateway payment gateway for WP Charitable {#en}
+# BeGateway payment gateway for WP Charitable
 
 [Русская версия](#ru)
 
@@ -65,7 +65,7 @@ Use the following test card to make failed test payment:
   * Card expiry date: 01/30
   * CVC: 123
 
-# Платежный шлюз BeGateway для WP Charitable {#ru}
+# Платежный шлюз BeGateway для WP Charitable
 
 [English version](#en)
 
@@ -76,7 +76,7 @@ Use the following test card to make failed test payment:
   * Зайдите в панель администратора WordPress (www.yourshop.com/wp-admin/)
   * Выберите _Плагины → Добавить новый_
   * Загрузите модуль через **Добавить новый**
-  * Выберите _Плагины → Установленные_ и найдите _BeGateway Payment Gateway for WP Charitable_ модуль и активируйте его.
+  * Выберите _Плагины → Установленные_ и найдите _Платежный шлюз BeGateway для WP Charitable_ плагин и активируйте его.
 
 ## Настройка
 
