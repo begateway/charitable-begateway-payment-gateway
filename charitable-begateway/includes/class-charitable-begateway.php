@@ -6,7 +6,8 @@ if ( ! class_exists( 'Charitable_BeGateway' ) ) :
 
 	class Charitable_BeGateway {
 
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.1';
+    
 		private static $instance = null;
 		private $plugin_file;
 		private $directory_path;
