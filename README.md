@@ -65,135 +65,135 @@ Use the following test card to make failed test payment:
   * Card expiry date: 01/30
   * CVC: 123
 
-  ## Widget style
+## Widget style
 
-  ### Styles that are being used by the widget
+### Styles that are being used by the widget
 
-  | Style name               |
-  |--------------------------|
-  | widget                   |
-  | header                   |
-  | headerPrice              |
-  | headerDescription        |
-  | headerDescriptionText    |
-  | headerClose              |
-  | footer                   |
-  | footerText               |
-  | footerLink               |
-  | footerSecurity           |
-  | main                     |
-  | methodsMenu              |
-  | methodsMenuText          |
-  | methodsMenuCard          |
-  | methodsMenuCardText      |
-  | methodsMenuList          |
-  | methodsMenuListMethod    |
-  | methodsMenuGrid          |
-  | methodsMenuGridMethod    |
-  | cardsMenu                |
-  | cardsMenuText            |
-  | cardsMenuCard            |
-  | cardsMenuCardText        |
-  | card                     |
-  | cardSides                |
-  | cardFace                 |
-  | cardFaceContent          |
-  | cardBack                 |
-  | cardBackMagneticLine     |
-  | cardBackCVC              |
-  | cardBackCVCText          |
-  | cardBackCVCInput         |
-  | cardPoints               |
-  | cardCustomer             |
-  | cardCustomerField        |
-  | cardButton               |
-  | eripContent              |
-  | eripTitle                |
-  | eripOrder                |
-  | eripOrderTitle           |
-  | eripOrderNumber          |
-  | eripBanks                |
-  | eripBanksTitle           |
-  | eripQRCode               |
-  | eripBanksComment         |
-  | eripBanksLinks           |
-  | eripBanksBank            |
-  | eripBanksMore            |
-  | paymentResult            |
-  | paymentResultStatus      |
-  | paymentResultStatusText  |
-  | paymentResultDetails     |
-  | paymentResultDetailsText |
-  | paymentResultButton      |
-  | method                   |
-  | methodContent            |
-  | methodTitle              |
-  | methodForm               |
-  | methodButton             |
-  | methodWaiting            |
-  | phoneLabel               |
-  | inputGroup               |
-  | inputGroupField          |
-  | inputGroupSelect         |
-  | stepBack                 |
-  | stepBackText             |
+| Style name               |
+|--------------------------|
+| widget                   |
+| header                   |
+| headerPrice              |
+| headerDescription        |
+| headerDescriptionText    |
+| headerClose              |
+| footer                   |
+| footerText               |
+| footerLink               |
+| footerSecurity           |
+| main                     |
+| methodsMenu              |
+| methodsMenuText          |
+| methodsMenuCard          |
+| methodsMenuCardText      |
+| methodsMenuList          |
+| methodsMenuListMethod    |
+| methodsMenuGrid          |
+| methodsMenuGridMethod    |
+| cardsMenu                |
+| cardsMenuText            |
+| cardsMenuCard            |
+| cardsMenuCardText        |
+| card                     |
+| cardSides                |
+| cardFace                 |
+| cardFaceContent          |
+| cardBack                 |
+| cardBackMagneticLine     |
+| cardBackCVC              |
+| cardBackCVCText          |
+| cardBackCVCInput         |
+| cardPoints               |
+| cardCustomer             |
+| cardCustomerField        |
+| cardButton               |
+| eripContent              |
+| eripTitle                |
+| eripOrder                |
+| eripOrderTitle           |
+| eripOrderNumber          |
+| eripBanks                |
+| eripBanksTitle           |
+| eripQRCode               |
+| eripBanksComment         |
+| eripBanksLinks           |
+| eripBanksBank            |
+| eripBanksMore            |
+| paymentResult            |
+| paymentResultStatus      |
+| paymentResultStatusText  |
+| paymentResultDetails     |
+| paymentResultDetailsText |
+| paymentResultButton      |
+| method                   |
+| methodContent            |
+| methodTitle              |
+| methodForm               |
+| methodButton             |
+| methodWaiting            |
+| phoneLabel               |
+| inputGroup               |
+| inputGroupField          |
+| inputGroupSelect         |
+| stepBack                 |
+| stepBackText             |
 
-  ### Customizable CSS properties
+### Customizable CSS properties
 
-  The widget supports only properties listed below.
+The widget supports only properties listed below.
 
-  | Property        | Equal CSS property           |
-  |-----------------|------------------------------|
-  | color           | color                        |
-  | backgroundColor | background-color             |
-  | border          | border                       |
-  | borderRadius    | border-radius                |
-  | fontFamily      | font-family                  |
-  | fontSize        | font-size                    |
-  | fontSmoothing   | font-smoothing               |
-  | fontStyle       | font-style                   |
-  | fontVariant     | font-variant                 |
-  | fontWeight      | font-weight                  |
-  | lineHeight      | line-height                  |
-  | letterSpacing   | letter-spacing               |
-  | margin          | margin                       |
-  | padding         | padding                      |
-  | textAlign       | text-align                   |
-  | textDecoration  | text-decoration              |
-  | textShadow      | text-shadow                  |
-  | textTransform   | text-transform               |
+| Property        | Equal CSS property           |
+|-----------------|------------------------------|
+| color           | color                        |
+| backgroundColor | background-color             |
+| border          | border                       |
+| borderRadius    | border-radius                |
+| fontFamily      | font-family                  |
+| fontSize        | font-size                    |
+| fontSmoothing   | font-smoothing               |
+| fontStyle       | font-style                   |
+| fontVariant     | font-variant                 |
+| fontWeight      | font-weight                  |
+| lineHeight      | line-height                  |
+| letterSpacing   | letter-spacing               |
+| margin          | margin                       |
+| padding         | padding                      |
+| textAlign       | text-align                   |
+| textDecoration  | text-decoration              |
+| textShadow      | text-shadow                  |
+| textTransform   | text-transform               |
 
-  Values of CSS properties may accept values compatible with CSS syntax.
+Values of CSS properties may accept values compatible with CSS syntax.
 
-  You may use a browser Developer Tools (Inspect element) to know what CSS elements are in use and how they are nested.
+You may use a browser Developer Tools (Inspect element) to know what CSS elements are in use and how they are nested.
 
-  Example
+Example
 
-  ```javascript
-  header: {
-    backgroundColor: '#fff',
-    border: 'none'
-  },
-  headerPrice: {
-    color: '#fff'
-  },
-  footer: {
-    backgroundColor: '#fff',
-    border: 'none'
-  },
-  cardButton: {
-    backgroundColor: '#26d893',
-    border: 'none'
-  },
-  methodButton: {
-    backgroundColor: '#26d893',
-    border: 'none'
-  },
-  paymentResultButton: {
-    backgroundColor: '#26d893',
-    border: 'none'
-  }
-  ```
+```javascript
+header: {
+  backgroundColor: '#fff',
+  border: 'none'
+},
+headerPrice: {
+  color: '#fff'
+},
+footer: {
+  backgroundColor: '#fff',
+  border: 'none'
+},
+cardButton: {
+  backgroundColor: '#26d893',
+  border: 'none'
+},
+methodButton: {
+  backgroundColor: '#26d893',
+  border: 'none'
+},
+paymentResultButton: {
+  backgroundColor: '#26d893',
+  border: 'none'
+}
+```
 
 # Платежный шлюз BeGateway для WP Charitable
 
